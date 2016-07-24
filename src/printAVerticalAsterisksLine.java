@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class printNAsterisksOnOneLine {
+public class printAVerticalAsterisksLine {
     private final static String asterisk = "*";
 
     public static void main(String[] args) {
@@ -8,9 +8,8 @@ public class printNAsterisksOnOneLine {
         System.out.println("Please input n:");
         int n = sc.nextInt();
         while (n > 0) {
-            System.out.print(asterisk);
+            System.out.println(asterisk);
             n--;
         }
-
     }
 }
